@@ -1,0 +1,50 @@
+.section{
+    background-color: #101010;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+}
+.imgCard{
+    overflow: hidden;
+    padding: none;
+    height: 18rem;
+    border:solid ;
+    border-bottom: none;
+    border-right: none;
+    border-top-width: 3.5rem;
+    border-left-width: 1.5rem;
+}
+.container .left{
+    width: 35vw;
+}
+.container h4{
+    width: 30vw;
+    line-height: 2rem;
+}
+.container h2{
+    width: 25vw;
+    text-transform: capitalize;
+}
+.grid h3{
+    display: inline-block;
+    padding: 0;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.grid{
+    align-items: center;
+    margin: 4rem 10vw;
+    grid-row-gap: 8vh;
+    grid-column-gap: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.step{
+    width: 10vw;
+}
+.text{
+    width: 35vw;
+}

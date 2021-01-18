@@ -1,0 +1,15 @@
+.container{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EC1E64;
+}
+.container button{
+    background-color: #fff;
+    color: #101011;
+}
+.container span{
+font-size: 3rem;
+margin-right: 2rem;
+}

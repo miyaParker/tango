@@ -1,0 +1,57 @@
+.container{
+  max-width: 90vw;
+  background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  height: 100vh;
+}
+.list{
+  margin-right: 4rem;
+}
+.heroCard{
+  padding: 0;
+  margin-top: 4rem;
+    display: flex;
+    align-items: flex-start;
+}
+.step{
+  width: 10vw;
+  margin-top: 11rem;
+}
+.flex{
+  display: flex;
+}
+.heroText{
+  color: #686868;
+  width: 18rem;
+  margin-right: 10rem;
+}
+  .flex h1{
+    margin-top: 10rem;
+    text-align: left;
+    color: #fff;
+    font-weight: 500;
+    font-family: helvetica;
+    text-transform: capitalize;
+    width: 50vw;
+  }
+  .listItem{
+    line-height: 1.5rem;
+    text-transform: capitalize;
+
+  }
+  .scrollImg{
+    margin: 0;
+    margin-left: 8rem;
+  }
+  .imgContainer{
+    margin: 0;
+    width: 10vw;
+  }
+  .step{
+    color: #686868;
+    margin-top: 11rem;
+  }
+ 

@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    padding-left: 5vw;
+    max-width: 100vw;
+    
+}
+.flexRight h4{
+    line-height: 2rem;
+}
+.img{
+    cursor: pointer;
+}
+.container img{
+    object-fit: contain;
+}
+.flexLeft{
+    width: 25vw;
+    
+}
+.flexRight{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75vw;
+    display: flex;
+}
+.contact{
+    font-size: .8rem;
+}
+.menu{
+    text-transform: capitalize;
+    font-size: .8rem;
+    line-height: 2rem;
+}
+.address{
+    margin-top: .3rem;
+    line-height: 1.5rem;
+    display: block;
+ width: 12vw;
+}
+.email{
+    display: inline-block;
+    color: #EC1E64;
+    border-bottom: .2px solid #EC1E64;
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+.social{
+    width: 20%;
+    text-transform: capitalize;
+    color: #686868;
+    font-size: .8rem;
+    line-height: 1.7rem;
+}
