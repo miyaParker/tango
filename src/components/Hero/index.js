@@ -1,34 +1,34 @@
 import styles from './styles.module.css'
-import Indicator from "../layout/Indicator";
 
-export default function Hero({heroRef}) {
-    const scrollToBottom=()=>{
-        const footer = document.querySelector('footer');
+export default function Hero({heroRef, showScrollToTop}) {
+    const scrollToBottom = () => {
+        const footer = document.querySelector('header');
         footer.scrollIntoView(true);
     }
     return (
         <header className={styles.container} ref={heroRef}>
-            <figure onClick={scrollToBottom}><img className={styles.scrollImg} src='down.png'/></figure>
-            <div className={styles.flex}>
-                <span className={styles.step}>001</span>
-                <h1>Boutique agency with a global impact</h1>
+            {showScrollToTop &&
+                <figure onClick={scrollToBottom}><img className={styles.scrollImg} src='up.png'/></figure>}
+            <div className={`row pt-5 mt-5 align-items-start`}>
+                <span className={`${styles.step} col-12 col-sm-1 mb-0`}>001</span>
+                <h1 className={`${styles.heroText} col-11 col-sm-9 col-lg-6 `}>Boutique agency with a global impact</h1>
             </div>
-            <div className={styles.heroCard}>
-                <p className={styles.heroSpace}></p>
-                <p className={styles.heroText}>
+
+            <div className={`row ps-none pt-4 align-items-flex-start`}>
+                <p className={`col-11 col-sm-7 col-lg-4 ms-none offset-0 offset-sm-1`}>
                     We design, build and scale web and mobile apps with aspiring entrepreneurs, startups and enterprise
                     customers
                 </p>
-                <ul className={styles.list}>
-                    <li className={styles.listItem}>technology</li>
-                    <li className={styles.listItem}>marketing</li>
-                    <li className={styles.listItem}>product and design</li>
+                <ul className={`col-12 col-sm-5 col-lg-3 offset-sm-1 offset-lg-0 mb-0`}>
+                    <li className={'text-capitalize lh-lg'}>technology</li>
+                    <li className={'text-capitalize lh-lg'}>marketing</li>
+                    <li className={'text-capitalize lh-lg'}>product and design</li>
 
                 </ul>
-                <ul className={styles.list}>
-                    <li className={styles.listItem}>strategic consulting</li>
-                    <li className={styles.listItem}>business synergies</li>
-                    <li className={styles.listItem}>fund raising</li>
+                <ul className={`col-12 col-sm-5 col-lg-3`}>
+                    <li className={'text-capitalize lh-lg'}>strategic consulting</li>
+                    <li className={'text-capitalize lh-lg'}>business synergies</li>
+                    <li className={'text-capitalize lh-lg'}>fund raising</li>
                 </ul>
             </div>
         </header>

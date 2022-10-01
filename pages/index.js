@@ -13,7 +13,8 @@ import Nav from "../src/components/Nav";
 import Indicator from "../src/components/layout/Indicator";
 
 export default function Home() {
-    const [activeSection, setActiveSection] = useState('home');
+    const [activeSection, setActiveSection] = useState('hero');
+    const [showScrollToTop, setShowScrollToTop] = useState(false)
     const industriesRef = useRef();
     const processRef = useRef();
     const clientRef = useRef();
@@ -25,7 +26,7 @@ export default function Home() {
 
     }
 
-    const scrollToSection=(section)=>{
+    const scrollToSection = (section) => {
         switch (section) {
             case 'industries':
                 industriesRef.current.scrollIntoView(true);
@@ -39,7 +40,7 @@ export default function Home() {
             case 'tango':
                 tangoRef.current.scrollIntoView(true);
                 break;
-                }
+        }
     }
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -49,6 +50,9 @@ export default function Home() {
 
 
     const handleScroll = (e) => {
+        const scrollPosition = window.scrollY;
+        if (scrollPosition > 600) setShowScrollToTop(true);
+        if (scrollPosition < 600) setShowScrollToTop(false);
         const heroSection = [heroRef.current.offsetTop, heroRef.current.clientHeight + heroRef.current.offsetTop]
         const industriesSection = [industriesRef.current.offsetTop, industriesRef.current.clientHeight + industriesRef.current.offsetTop]
         const processSection = [processRef.current.offsetTop, processRef.current.clientHeight + processRef.current.offsetTop]
@@ -56,7 +60,6 @@ export default function Home() {
         const tangoSection = [tangoRef.current.offsetTop, tangoRef.current.clientHeight + tangoRef.current.offsetTop]
 
 
-        const scrollPosition = window.scrollY;
         switch (true) {
             case (scrollPosition >= heroSection[0] && scrollPosition <= heroSection[1]):
                 activateSection('hero')
@@ -80,7 +83,7 @@ export default function Home() {
         <div className={styles.container}>
             <Nav scrollToSection={scrollToSection}/>
             <Indicator activeSection={activeSection}/>
-            <Hero heroRef={heroRef}/>
+            <Hero heroRef={heroRef} showScrollToTop={showScrollToTop} showIn/>
             <Industries industriesRef={industriesRef}/>
             <Process processRef={processRef}/>
             <Client clientRef={clientRef}/>
