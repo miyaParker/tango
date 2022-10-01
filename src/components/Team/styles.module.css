@@ -1,0 +1,38 @@
+.section{
+    background-color: #202020;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+}
+.button{
+    margin-top: 2rem;
+    background-color: #EC1E64;
+}
+.text{
+    width: 25vw;
+}
+
+.img{
+    width: 25vw;
+    overflow: hidden;
+    padding: none;
+    height: 23rem;
+    border:solid ;
+    border-bottom: none;
+    border-right: none;
+    border-top-width: 3.5rem;
+    border-left-width: 1.5rem;
+}
+.step{
+    width: 10vw;
+}
+.h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.card{
+    width: 35vw;
+}

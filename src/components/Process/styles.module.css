@@ -1,0 +1,57 @@
+.section{
+    background-color: #101010;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+}
+.pinkBtn {
+    margin-top: 1rem;
+    background-color: #EC1E64;
+}
+.container .left{
+    width: 35vw;
+}
+.container h4{
+    width: 30vw;
+    line-height: 2rem;
+}
+.container h2{
+    width: 25vw;
+    text-transform: capitalize;
+}
+.card{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.img{
+    align-self: flex-start;
+}
+.img2{
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.imgFlex{
+    display: flex;
+}
+.flex h3{
+    padding: 1rem 0;
+    text-transform: capitalize;
+}   
+.flex{
+    justify-content: space-between;
+    width: 70vw;
+    margin: 4rem auto;
+    display: flex;
+}
+.step{
+    width: 10vw;
+}
+.text{
+    width: 35vw;
+}

@@ -1,0 +1,88 @@
+.section {
+    background-color: #202020;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+}
+
+.container .left {
+    width: 35vw;
+}
+
+.container h4 {
+    width: 30vw;
+    line-height: 2rem;
+}
+
+.container h2 {
+    width: 25vw;
+    text-transform: capitalize;
+}
+
+.grid h3 {
+    display: inline-block;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.card1 {
+    background-image: url('/dscout.png');
+    background-color: #fff;
+}
+
+.card2 {
+    background-image: url('/talixo.png');
+    border: .5px solid rgb(95, 95, 95);
+}
+
+.card3 {
+    background-image: url('/kalamba.svg');
+    background-size: 120px 80px;
+    background-color: #EC1E64;
+    
+}
+
+.card4 {
+    background-image: url('/bb.svg');
+    background-size: 140px 80px;
+    background-color: #EC1E64;
+}
+.card5 {
+    background-image: url('/dscout.png');
+    background-color: #fff;
+    border: .5px solid rgb(95, 95, 95);
+}
+.card6 {
+    background-image: url('/talixo.png');
+    border: .5px solid rgb(95, 95, 95);}
+
+.grid {
+    margin: 4rem 10vw;
+    grid-row-gap: 8vh;
+    grid-column-gap: 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.step {
+    width: 10vw;
+}
+
+.imgCard {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem 0;
+    width: 20vw;
+  
+}
+.text {
+    width: 35vw;
+}
+
+.pinktext {
+    color: #EC1E64;
+}
