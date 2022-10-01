@@ -13,7 +13,7 @@ import Nav from "../src/components/Nav";
 import Indicator from "../src/components/layout/Indicator";
 
 export default function Home() {
-    const [activeSection, setActiveSection] = useState('home');
+    const [activeSection, setActiveSection] = useState('hero');
     const [showScrollToTop, setShowScrollToTop] = useState(false)
     const industriesRef = useRef();
     const processRef = useRef();
@@ -83,7 +83,7 @@ export default function Home() {
         <div className={styles.container}>
             <Nav scrollToSection={scrollToSection}/>
             <Indicator activeSection={activeSection}/>
-            <Hero heroRef={heroRef} showScrollToTop={showScrollToTop}/>
+            <Hero heroRef={heroRef} showScrollToTop={showScrollToTop} showIn/>
             <Industries industriesRef={industriesRef}/>
             <Process processRef={processRef}/>
             <Client clientRef={clientRef}/>

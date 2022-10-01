@@ -22,8 +22,10 @@ export default function Nav({scrollToSection}) {
                 </ul>
             </div>
             <div>
-                <span className={`${styles.listItem} ${styles.grey}`}>contact@tango.agency</span>
-                <button className={styles.pinkBtn}>get a quote</button>
+                <span className={`${styles.listItem} ${styles.grey}`}><a
+                    href={'mailto:karenziboh@gmail.com?subject=I would love to hire you!&&body=Hi Karen! I love your portfolio and I would love to hire you.'}>contact@tango.agency</a></span>
+                <button className={styles.pinkBtn}><a
+                    href={'mailto:karenziboh@gmail.com?subject=Quote Request&&body=I would like to request a quote for ...'}>get a quote</a></button>
             </div>
         </div>
     )

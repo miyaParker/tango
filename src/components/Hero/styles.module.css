@@ -2,24 +2,13 @@
     background-image: url('/public/background.png');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0 80px;
     padding-top: 20px;
 }
 
-.list {
-    margin-right: 4rem;
-}
-
-.heroCard {
-    padding: 0;
-    margin-top: 4rem;
-    display: flex;
-    align-items: flex-start;
-}
 
 .step {
-    width: 10vw;
     margin-top: 11rem;
 }
 
@@ -28,39 +17,38 @@
 }
 
 .heroText {
-    color: #686868;
-    width: 18rem;
-    /*margin-right: 10rem;*/
+    margin-top: 5rem;
 }
 
-.flex h1 {
+@media (max-width: 576px) {
+    .heroText {
+        margin-top: 1rem;
+    }
+}
+
+
+.step {
+    color: #686868;
+    margin-top: 5.75rem;
+}
+
+.bannerText {
     margin-top: 10rem;
     text-align: left;
     color: #fff;
     font-weight: 500;
     font-family: helvetica;
     text-transform: capitalize;
-    width: 50vw;
 }
 
-.listItem {
-    line-height: 1.5rem;
-    text-transform: capitalize;
-
-}
 
 .scrollImg {
     position: fixed;
     top: 70vh;
-    right:0;
-    padding-right:80px;
+    right: 0;
+    padding-right: 80px;
 }
 
-
-.step {
-    color: #686868;
-    margin-top: 11rem;
-}
 
 .heroSpace {
     width: 10vw;
