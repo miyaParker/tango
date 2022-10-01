@@ -1,14 +1,15 @@
 import styles from './styles.module.css'
 import Indicator from "../layout/Indicator";
 
-export default function Hero({heroRef}) {
-    const scrollToBottom=()=>{
-        const footer = document.querySelector('footer');
+export default function Hero({heroRef, showScrollToTop}) {
+    const scrollToBottom = () => {
+        const footer = document.querySelector('header');
         footer.scrollIntoView(true);
     }
     return (
         <header className={styles.container} ref={heroRef}>
-            <figure onClick={scrollToBottom}><img className={styles.scrollImg} src='down.png'/></figure>
+            {showScrollToTop &&
+                <figure onClick={scrollToBottom}><img className={styles.scrollImg} src='up.png'/></figure>}
             <div className={styles.flex}>
                 <span className={styles.step}>001</span>
                 <h1>Boutique agency with a global impact</h1>
