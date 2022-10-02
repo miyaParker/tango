@@ -6,8 +6,8 @@ export default function Industries({industriesRef}) {
             <div className={`${styles.container} row`}>
                 <span className={`col-12 col-sm-1 mb-0 pt-2`}>002</span>
                 <h2 className={`${styles.h2} col-11 col-md-4 `}>Industries</h2>
-                <div className={`${styles.right} col-12 col-md-6 ps-md-3 offset-0 offset-md-1`}>
-                    <h4 className={`${styles.intro} pt-4 pb-3 pb-md-0 pe-5 pe-md-5 pt-md-0`}>Tango is a digital agency that brings
+                <div className={`${styles.right} col-12 col-md-6 ps-md-3 offset-0 offset-sm-1 offset-md-0`}>
+                    <h4 className={`${styles.intro} pt-4 pb-3 pe-5 pe-md-5 pt-md-0 `}>Tango is a digital agency that brings
                         that brings together technology services, design and marketing to make your business grow</h4>
                     <button className={styles.pinkBtn}>learn more</button>
                 </div>
