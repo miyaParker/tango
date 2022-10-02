@@ -26,6 +26,13 @@
     }
 }
 
+@media (max-width: 991px) {
+    .container {
+        padding: 0 60px;
+        padding-top: 20px;
+    }
+}
+
 
 .step {
     color: #686868;

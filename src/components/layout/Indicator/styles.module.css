@@ -17,3 +17,9 @@
     top: 70vh;
     left: 80px;
 }
+
+@media (max-width: 992px) {
+    .indicatorParent{
+        left: 60px;
+    }
+}
