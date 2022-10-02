@@ -68,17 +68,37 @@
     object-fit: cover;
 }
 
+@media (min-width: 120px) {
+    .section {
+        padding: 20px 20px;
+    }
+    .intro{
+        max-width: 90%;
+    }
 
+}
 
 @media (min-width: 576px) {
     .card {
         height: 18rem;
+    }
+    .section {
+        padding: 20px 20px;
+    }
+    .intro{
+        max-width: 70%;
     }
 }
 
 @media (min-width: 768px) {
     .card {
         height: 22rem;
+    }
+    .section {
+        padding: 20px 40px;
+    }
+    .intro{
+        max-width: 100%;
     }
 }
 @media (min-width: 992px) {
@@ -89,4 +109,7 @@
     .card {
         height: 33rem;
     }
+
+
 }
+
