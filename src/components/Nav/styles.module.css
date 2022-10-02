@@ -5,9 +5,9 @@
     justify-content: space-between;
     background-color: #101010;
     width: 100vw;
-    padding: 20px 80px;
     z-index: 20;
     flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .pinkBtn {
@@ -34,6 +34,7 @@
 }
 
 .logoContainer {
+    margin-left: 60px;
     width: 10vw;
 }
 
@@ -86,17 +87,65 @@
     border-bottom: 1px solid #3A3A3A;
 }
 
-@media (max-width: 991px) {
-    .container {
-        padding: 20px 0;
+@media (min-width: 120px) {
+    .toggleBtn {
+        display: none;
+        margin: 0 10px;
     }
 
     .logoContainer {
-        margin-left: 60px;
+        margin-left: 20px;
+    }
+
+    .pinkBtn {
+        padding: 10px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 355px) {
+    .toggleBtn {
+        display: none;
+        margin: 0 20px;
+    }
+
+    .logoContainer {
+        margin-left: 20px;
+    }
+
+    .pinkBtn {
+        padding: 15px;
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px) {
+    .toggleBtn {
+        display: none;
+        margin: 0 40px;
+    }
+
+    .logoContainer {
+        margin-left: 40px;
+    }
+
+    .pinkBtn {
+        padding: 15px;
+        font-size: 12px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        padding: 20px 80px;
+    }
+
+    .logoContainer {
+        margin-left: 0;
     }
 
     .toggleBtn {
-        display: block;
+        display: none;
         margin: 0 60px;
     }
+
+
 }
