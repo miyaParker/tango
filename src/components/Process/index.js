@@ -13,7 +13,7 @@ export default function Process({processRef}) {
                     <div className={styles.card}>
                         <span className={styles.imgFlex}>
                             <img src="document.png" className={styles.img} />
-                            <img src="line.png" className={styles.img2} />
+                            <img src="line.png" className={`${styles.img2} d-none d-md-block` } />
                         </span>
                         <h3>Quote in 48h</h3>
                         <p>Once we'll have your project's details, we'll tailor a customized offer with a price and a roadmap</p>
@@ -21,7 +21,7 @@ export default function Process({processRef}) {
                     <div className={styles.card}>
                         <span >
                             <img src="mobile.png" className={styles.img} />
-                            <img src="line.png" className={styles.img2} />
+                            <img src="line.png" className={`${styles.img2} d-none d-md-block` } />
                         </span>
                         <h3>Prototype in 2 weeks</h3>
                         <p>After 2 weeks you'll receive an initial, tangible product, easy to develop and play with</p>
