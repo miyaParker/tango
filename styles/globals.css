@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import 'bootstrap/dist/css/bootstrap.css';
 html, body {
+  overflow-x: clip;
   background-color: #101010;
   color: #fff;
   padding: 0;

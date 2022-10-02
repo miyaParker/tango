@@ -1,33 +1,30 @@
-.section{
+.section {
     background-color: #202020;
+    width: 100vw;
+    padding: 120px 60px;
 }
-.container{
-    margin: 0 auto;
+
+.container {
     display: flex;
-    max-width: 90vw;
 }
-.h2{
-    width: 36vw;
-}
-.step {
-    width: 10vw;
-}
+
 .flex {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-}.right{
-    width: 35vw;
 }
-.text{
+
+.text {
     padding-right: 1rem;
 }
-.desc h3{
+
+.desc h3 {
     padding-top: 1rem;
     display: inline-block;
     line-height: 1.1rem;
     text-decoration: underline;
 }
+
 .cardHeading {
     width: 20vw;
     color: grey;
@@ -36,38 +33,60 @@
     display: flex;
     justify-content: space-around;
 }
+
 .intro {
     font-size: .9rem;
     line-height: 1.7rem;
     padding-top: 0;
     margin-top: 0;
     margin-left: 0;
-    width: 32vw;
 }
+
 .pinkBtn {
     background-color: #EC1E64;
 }
+
 .cards {
-    width: 65vw;
-    margin: 0 15vw;
     padding-top: 5rem;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
-.small {
-    width: 20rem;
-}
-.big {
-    width: 25rem;
-}
-.card {  
+
+.card {
     overflow: hidden;
-    padding: none;
-    height: 23rem;
-    border:solid ;
+    padding: 0;
+    border: 1px solid #ffffff;
     border-bottom: none;
     border-right: none;
     border-top-width: 3.5rem;
     border-left-width: 1.5rem;
+}
+
+.card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media (min-width: 576px) {
+    .card {
+        height: 18rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        height: 22rem;
+    }
+}
+@media (min-width: 992px) {
+    .section {
+        padding: 120px 80px;
+    }
+
+    .card {
+        height: 33rem;
+    }
 }
