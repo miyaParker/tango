@@ -8,7 +8,7 @@
 }
 
 .indicator.active {
-    border: .5px solid deeppink;
+    border: .5px solid #EC1E64;
     width:35px;
 }
 
@@ -16,4 +16,10 @@
     position: fixed;
     top: 70vh;
     left: 80px;
+}
+
+@media (max-width: 992px) {
+    .indicatorParent{
+        left: 60px;
+    }
 }

@@ -7,14 +7,15 @@
     width: 100vw;
     padding: 20px 80px;
     z-index: 20;
+    flex-wrap: wrap;
 }
 
 .pinkBtn {
     background-color: #EC1E64;
     margin-left: 5vw;
-
 }
-.pinkBtn>a{
+
+.pinkBtn > a {
     text-decoration: none;
 }
 
@@ -25,13 +26,14 @@
 
 .grey {
     color: #686868;
-    font-size: .7rem;
-}
-.grey:hover{
-    color: #ffffff;
+    font-size: .8rem;
 }
 
-.imgContainer {
+.grey:hover {
+    color: #ffffff !important;
+}
+
+.logoContainer {
     width: 10vw;
 }
 
@@ -51,8 +53,50 @@
 
 .menuLeft {
     display: flex;
+    align-items: center;
 }
 
 .menuList {
     padding-left: 0 !important;
+    margin-bottom: 0;
+}
+
+.mobileMenu {
+    margin-top: 20px;
+    height: 90vh;
+    width: 70%;
+    margin-left: 30%;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    border: 1px solid #3A3A3A;
+    border-right: none;
+    border-bottom: none;
+}
+
+.mobileMenu > li {
+    flex: 1 1 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.mobileMenu > li:not(:last-child) {
+    border-bottom: 1px solid #3A3A3A;
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 20px 0;
+    }
+
+    .logoContainer {
+        margin-left: 60px;
+    }
+
+    .toggleBtn {
+        display: block;
+        margin: 0 60px;
+    }
 }

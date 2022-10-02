@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100vh;
-    padding: 0 80px;
+    padding: 120px 80px;
     padding-top: 20px;
 }
 
@@ -23,6 +23,12 @@
 @media (max-width: 576px) {
     .heroText {
         margin-top: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 20px 60px;
     }
 }
 
