@@ -26,9 +26,9 @@
 }
 
 .cardHeading {
-    width: 20vw;
     color: grey;
     position: absolute;
+    margin-top: 20px;
     font-size: .6rem;
     display: flex;
     justify-content: space-around;
