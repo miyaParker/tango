@@ -17,25 +17,27 @@ export default function Blog() {
                     </div>
                     <div className={styles.text}>
                         <a href="#"><h3 className={styles.h3}>Avatar view for android apps</h3></a>
-                        <p className={styles.p}>The avatar view is gaining much popularity now in android development</p>
+                        <p className={styles.p}>The avatar view is gaining much popularity now in android
+                            development</p>
                     </div>
                 </div>
                 <div>
                     <div className={`${styles.whiteBorder} ${styles.card} ${styles.card2}`}></div>
                     <div className={styles.text}>
                         <a href="#"><h3 className={styles.h3}>Avatar view for android apps</h3></a>
-                        <p className={styles.p}>The avatar view is gaining much popularity now in android development</p>
+                        <p className={styles.p}>The avatar view is gaining much popularity now in android
+                            development</p>
                     </div>
                 </div>
                 <div>
                     <div className={`${styles.lightgreyBorder} ${styles.card}  ${styles.card3}`}></div>
                     <div className={styles.text}>
                         <a href="#"><h3 className={styles.h3}>Avatar view for android apps</h3></a>
-                        <p className={styles.p}>The avatar view is gaining much popularity now in android development</p>
+                        <p className={styles.p}>The avatar view is gaining much popularity now in android
+                            development</p>
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }
