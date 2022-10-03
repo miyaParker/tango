@@ -2,14 +2,12 @@
     background-color: #101010;
 }
 .container{
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    max-width: 90vw;
 }
 .imgCard{
     overflow: hidden;
-    padding: none;
+    padding: 0;
     height: 18rem;
     border:solid ;
     border-bottom: none;
@@ -17,16 +15,8 @@
     border-top-width: 3.5rem;
     border-left-width: 1.5rem;
 }
-.container .left{
-    width: 35vw;
-}
-.container h4{
-    width: 30vw;
-    line-height: 2rem;
-}
-.container h2{
-    width: 25vw;
-    text-transform: capitalize;
+.pinkBtn{
+    background-color: #EC1E64;
 }
 .grid h3{
     display: inline-block;
@@ -46,5 +36,50 @@
     width: 10vw;
 }
 .text{
-    width: 35vw;
+line-height: 1.7rem}
+
+
+@media (min-width: 120px) {
+    .section {
+        padding: 20px 20px;
+    }
+    .text{
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 567px) {
+    .card p {
+        max-width: 50%;
+    }
+    .img {
+        min-width: 90px;
+    }
+    .section {
+        padding: 20px 20px;
+    }
+    .text{
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card p {
+        max-width: 100%;
+    }
+    .img {
+        min-width: 50px;
+    }
+    .section {
+        padding: 20px 40px;
+    }
+    .text{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .section {
+        padding: 120px 80px;
+    }
 }
