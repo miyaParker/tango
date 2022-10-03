@@ -14,7 +14,7 @@ export default function Industries({industriesRef}) {
             </div>
 
             <div className={`${styles.cards} offset-0 offset-sm-1 offset-md-0`}>
-                <div className={`col-11 col-sm-6 col-md-5 offset-md-1 col-lg-4`}>
+                <div className={`col-12 col-sm-6 col-md-5 offset-md-1 col-lg-4`}>
                     <div className={styles.cardHeading}>
                         <span>001</span>
                         <span className={styles.text}>internet of things case studies</span>
@@ -28,7 +28,7 @@ export default function Industries({industriesRef}) {
                             hardware and sofftware and their seamless cooperation</p>
                     </div>
                 </div>
-                <div className={`col-11 col-sm-6 col-md-6 col-lg-5 offset-lg-1 ps-0 ps-sm-3`}>
+                <div className={`col-12 col-sm-6 col-md-6 col-lg-5 offset-lg-1 ps-0 ps-sm-3`}>
                     <div className={`${styles.card}`}>
                         <img src="fitness.png" className={styles.img}/>
                     </div>
@@ -40,7 +40,7 @@ export default function Industries({industriesRef}) {
                 </div>
             </div>
             <div className={`${styles.cards}  offset-0 offset-sm-1 offset-md-0`}>
-                <div className={`col-11 col-sm-6 col-md-6 col-lg-5 offset-lg-1 `}>
+                <div className={`col-12 col-sm-6 col-md-6 col-lg-5 offset-lg-1 `}>
                     <div className={styles.cardHeading}>
                         <span>001</span>
                         <span className={styles.text}>internet of things case studies</span>
@@ -55,7 +55,7 @@ export default function Industries({industriesRef}) {
                             systems.</p>
                     </div>
                 </div>
-                <div className={`col-11 col-sm-6 col-md-5 offset-md-1 col-lg-4 ps-0 ps-sm-3`}>
+                <div className={`col-12 col-sm-6 col-md-5 offset-md-1 col-lg-4 ps-0 ps-sm-3`}>
                     <div className={styles.card}>
                         <img src="iot.jpg" className={styles.img}/>
                     </div>
@@ -67,7 +67,7 @@ export default function Industries({industriesRef}) {
                 </div>
             </div>
             <div className={`${styles.cards}  offset-0 offset-sm-1 offset-md-0`}>
-                <div className={`col-11 col-sm-6 col-md-5 col-lg-4 offset-lg-1`}>
+                <div className={`col-12 col-sm-6 col-md-5 col-lg-4 offset-lg-1`}>
                     <div className={styles.cardHeading}>
                         <span>001</span>
                         <span className={styles.text}>internet of things case studies</span>
@@ -81,7 +81,7 @@ export default function Industries({industriesRef}) {
                             of reshaping leisure and business travel world, by empowering mobility and saving costs.</p>
                     </div>
                 </div>
-                <div className={`col-11 col-sm-6 col-md-6 offset-md-1 ps-0 ps-sm-3`}>
+                <div className={`col-12 col-sm-6 col-md-6 offset-md-1 ps-0 ps-sm-3`}>
                     <div className={`${styles.card} `}>
                         <img src="fitness.png" className={styles.img}/>
                     </div>
@@ -93,7 +93,7 @@ export default function Industries({industriesRef}) {
                 </div>
             </div>
             <div className={`${styles.cards}  offset-0 offset-sm-1 offset-md-0`}>
-                <div className={`col-11 col-sm-6 col-md-6 offset-lg-1 `}>
+                <div className={`col-12 col-sm-6 col-md-6 offset-lg-1 `}>
                     <div className={styles.cardHeading}>
                         <span>001</span>
                         <span className={styles.text}>internet of things case studies</span>
@@ -107,7 +107,7 @@ export default function Industries({industriesRef}) {
                             online needs a stable, easy to use and safe place to market.</p>
                     </div>
                 </div>
-                <div className={`col-11 col-sm-6 col-md-5 offset-md-1 col-lg-4 ps-0 ps-sm-3`}>
+                <div className={`col-12 col-sm-6 col-md-5 offset-md-1 col-lg-4 ps-0 ps-sm-3`}>
                     <div className={`${styles.card} `}>
                         <img src="iot.jpg" className={styles.img}/>
                     </div>

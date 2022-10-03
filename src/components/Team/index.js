@@ -8,7 +8,7 @@ export default function Team({tangoRef}) {
                     <div className={`col-11 col-md-4 `}>
                         <img className={styles.img} src="pic4.png" />
                     </div>
-                <div className={`col-11 col-sm-9 col-md-6 col-lg-4 offset-0 offset-sm-1`}>
+                <div className={`col-12 col-sm-9 col-md-6 col-lg-4 offset-0 offset-sm-1`}>
                     <h3 className={styles.h3}>A team you can trust </h3>
                     <h4 className={styles.text}>We design, build and scale web and mobile apps with aspiring entrepreneurs, startup and enterprise customers.</h4>
                     <p>Building our own products raised the stakes for the team at Tango-we all understand that to build a successful business,IT, business and marketing work tightly together. </p>
