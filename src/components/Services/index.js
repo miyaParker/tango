@@ -17,47 +17,47 @@ export default function Services() {
                     </div>
                 </div>
                 <div className={'row'}>
-                    <div className={'col-11 col-sm-7 col-md-6 col-lg-4 d-md-block d-none'}>
-                        <img src="pic2.png" />
+                    <div className={'col-11 col-sm-7 col-md-6 col-lg-4 d-none d-md-block'}>
+                        <img src="pic2.png" className={'mw-100'} />
                     </div>
-                    <div className={'col-11 col-sm-7 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
+                    <div className={'col-11 col-sm-9 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
                         <h3>Strategic Consulting</h3>
                         <p>Having successfully globally scaled a number of ventures, we know what it takes to make it
                             work- from a good plan to strategic scaling. There are no magic tricks, just a lot of hard
                             work and well-earned knowledge!</p>
                     </div>
-                    <div className={'col-11 col-sm-7 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
+                    <div className={'col-11 col-sm-9 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
                         <h3>Business Synergies</h3>
                         <p>Having successfully globally scaled a number of ventures, we know what it takes to make it
                             work- from a good plan to strategic scaling. There are no magic tricks, just a lot of hard
                             work and well-earned knowledge!</p>
                     </div>
-                    <div className={'col-11 col-sm-7 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
+                    <div className={'col-11 col-sm-9 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
                         <h3>Fundraising</h3>
                         <p>Having successfully globally scaled a number of ventures, we know what it takes to make it
                             work- from a good plan to strategic scaling. There are no magic tricks, just a lot of hard
                             work and well-earned knowledge!</p>
                     </div>
-                    <div className={'col-11 col-sm-8 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
+                    <div className={'col-11 col-sm-9 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
                         <h3>Technology</h3>
                         <p>Having successfully globally scaled a number of ventures, we know what it takes to make it
                             work- from a good plan to strategic scaling. There are no magic tricks, just a lot of hard
                             work and well-earned knowledge!</p>
                     </div>
-                    <div className={'col-11 col-sm-8 col-md-6 col-lg-4'}>
-                        <img src="pic2.png" className={'d-none d-md-block'}/>
+                    <div className={'col-11 col-sm-9 col-md-6 col-lg-4 d-none d-md-block'}>
+                        <img src="pic2.png" className={'mw-100'}/>
                     </div>
-                    <div className={'col-11 col-md-6 col-lg-4'}>
-                        <img src="pic2.png" className={'d-none d-md-block'}/>
+                    <div className={'col-11 col-md-6 col-lg-4 d-none d-md-block'}>
+                        <img src="pic2.png" className={'mw-100'}/>
                     </div>
-                    <div className={'col-11 col-sm-8 col-md-6 col-lg-4 offset-sm-1 offset-md-0'} >
+                    <div className={'col-11 col-sm-9 col-md-6 col-lg-4 offset-sm-1 offset-md-0'} >
                         <h3>Marketing</h3>
                         <p>Having successfully globally scaled a number of ventures, we know what it takes to make it
                             work- from a good plan to strategic scaling. There are no magic tricks, just a lot of hard
                             work and well-earned knowledge!</p>
                     </div>
                     <div className={'col-11 col-sm-8 col-md-6 col-lg-4 offset-sm-1 offset-md-0'}>
-                        <h3>product & design</h3>
+                        <h3>Product & Design</h3>
                         <p>Having successfully globally scaled a number of ventures, we know what it takes to make it
                             work- from a good plan to strategic scaling. There are no magic tricks, just a lot of hard
                             work and well-earned knowledge!</p>

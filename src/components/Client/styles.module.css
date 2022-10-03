@@ -107,7 +107,7 @@
         max-width: 70%;
     }
     .imgCard{
-        width: 60%;
+        width: 40%;
     }
 }
 
@@ -122,7 +122,7 @@
         max-width: 100%;
     }
     .imgCard{
-        width: 80%;
+        width: 60%;
     }
 }
 @media (min-width: 992px) {

@@ -6,7 +6,7 @@ export default function Process({processRef}) {
             <div className={`${styles.container} row`}>
                 <span className={`col-12 col-sm-1 mb-0 pt-2`}>003</span>
                 <h2 className={`${styles.h2} col-11 col-md-4 `}>Our Process</h2>
-                <div className={`col-12 col-md-6 col-lg-4 offset-0 offset-sm-1 offset-md-0`}>
+                <div className={`col-11 col-sm-9 col-md-6 col-lg-4 offset-0 offset-sm-1 offset-md-0`}>
                     <h4 className={styles.text}>Share your idea and we'll let you know what it takes to monetize it. Get in touch and we'll
                         quote it within 2 days.</h4>
                     <button className={styles.pinkBtn}>learn more</button>
@@ -19,7 +19,7 @@ export default function Process({processRef}) {
                         <img src="line.png" className={`ps-1`}/>
                         <img src="calendar.png" className={styles.img}/>
                     </div>
-                    <div className={`${styles.card} col-12 col-md-4 flex-sm-row align-items-start`}>
+                    <div className={`${styles.card} col-11 col-sm-9 col-md-4 flex-sm-row align-items-start offset-sm-1 offset-md-0`}>
                         <div className={`${styles.img} d-md-none`}>
                             <img src="document.png"/>
                         </div>
@@ -30,7 +30,7 @@ export default function Process({processRef}) {
                         </div>
 
                     </div>
-                    <div className={`${styles.card} col-12 col-md-4 flex-sm-row align-items-start`}>
+                    <div className={`${styles.card} col-11 col-sm-9 col-md-4 flex-sm-row align-items-start offset-sm-1 offset-md-0`}>
                         <div className={`${styles.img} d-md-none`}>
                             <img src="mobile.png"/>
                         </div>
@@ -40,7 +40,7 @@ export default function Process({processRef}) {
                                 with.</p>
                         </div>
                     </div>
-                    <div className={`${styles.card} col-12 col-md-4 flex-sm-row align-items-start`}>
+                    <div className={`${styles.card} col-11 col-sm-9 col-md-4 flex-sm-row align-items-start offset-sm-1 offset-md-0`}>
                         <div className={`${styles.img} d-md-none`}>
                             <img src="calendar.png"/>
                         </div>

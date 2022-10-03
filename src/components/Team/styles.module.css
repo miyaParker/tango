@@ -12,27 +12,27 @@
     background-color: #EC1E64;
 }
 .text{
-    width: 25vw;
+    line-height: 1.7rem;
+    /*width: 25vw;*/
 }
 
 .img{
-    width: 25vw;
     overflow: hidden;
-    padding: none;
-    height: 23rem;
-    border:solid ;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /*height: 23rem;*/
+    border:1px solid #ffffff ;
     border-bottom: none;
     border-right: none;
     border-top-width: 3.5rem;
     border-left-width: 1.5rem;
 }
-.step{
-    width: 10vw;
-}
+
 .h3{
     font-size: 2.5rem;
     text-transform: capitalize;
 }
-.card{
-    width: 35vw;
-}
+/*.card{*/
+/*    width: 35vw;*/
+/*}*/
