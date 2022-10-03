@@ -16,8 +16,8 @@ export default function Industries({industriesRef}) {
             <div className={`${styles.cards} offset-0 offset-sm-1 offset-md-0`}>
                 <div className={`col-12 col-sm-6 col-md-5 offset-md-1 col-lg-4`}>
                     <div className={styles.cardHeading}>
-                        <span>001</span>
-                        <span className={styles.text}>internet of things case studies</span>
+                        <span className={'ms-4'}>001</span>
+                        <span className={'ms-3 d-inline-block'}>internet of things case studies</span>
                     </div>
                     <div className={`${styles.card} ${styles.first}`}>
                         <img src="iot.jpg" className={styles.img}/>
@@ -25,7 +25,7 @@ export default function Industries({industriesRef}) {
                     <div className={styles.desc}>
                         <h3 className={styles.underline}>Internet of Things</h3>
                         <p className={styles.p}>Tango knows how to make devices talk to each other.Considering both
-                            hardware and sofftware and their seamless cooperation</p>
+                            hardware and software and their seamless cooperation</p>
                     </div>
                 </div>
                 <div className={`col-12 col-sm-6 col-md-6 col-lg-5 offset-lg-1 ps-0 ps-sm-3`}>
@@ -42,8 +42,8 @@ export default function Industries({industriesRef}) {
             <div className={`${styles.cards}  offset-0 offset-sm-1 offset-md-0`}>
                 <div className={`col-12 col-sm-6 col-md-6 col-lg-5 offset-lg-1 `}>
                     <div className={styles.cardHeading}>
-                        <span>001</span>
-                        <span className={styles.text}>internet of things case studies</span>
+                        <span className={'ms-4'}>001</span>
+                        <span className={'ms-3 d-inline-block'}>internet of things case studies</span>
                     </div>
                     <div className={`${styles.card} ${styles.first}`}>
                         <img src="fitness.png" className={styles.img}/>
@@ -69,8 +69,8 @@ export default function Industries({industriesRef}) {
             <div className={`${styles.cards}  offset-0 offset-sm-1 offset-md-0`}>
                 <div className={`col-12 col-sm-6 col-md-5 col-lg-4 offset-lg-1`}>
                     <div className={styles.cardHeading}>
-                        <span>001</span>
-                        <span className={styles.text}>internet of things case studies</span>
+                        <span className={'ms-4'}>001</span>
+                        <span className={'ms-3 d-inline-block'}>internet of things case studies</span>
                     </div>
                     <div className={`${styles.card} ${styles.first}`}>
                         <img src="iot.jpg" className={styles.img}/>
@@ -96,7 +96,7 @@ export default function Industries({industriesRef}) {
                 <div className={`col-12 col-sm-6 col-md-6 offset-lg-1 `}>
                     <div className={styles.cardHeading}>
                         <span>001</span>
-                        <span className={styles.text}>internet of things case studies</span>
+                        <span className={'ms-3 d-inline-block'}>internet of things case studies</span>
                     </div>
                     <div className={`${styles.card} ${styles.first}`}>
                         <img src="fitness.png" className={styles.img}/>
