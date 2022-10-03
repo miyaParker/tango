@@ -1,7 +1,7 @@
 import styles from "./styles.module.css"
 export default function Footer() {
     return (
-        <footer className={`${styles.container} row`}>
+        <footer className={`${styles.container} row justify-content-between`}>
             <div className={'col-1'}>
             <img  src="logo.png" />
             </div>
